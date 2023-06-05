@@ -58,6 +58,16 @@ CREATE TABLE IF NOT EXISTS channel_data(
 <h4>1.2.playlist_data</h4>
 
 ```
+CREATE TABLE IF NOT EXISTS playlist_data(
+       dtype VARCHAR(255),
+       channel_id VARCHAR(255),
+       playlist_id VARCHAR(255),
+       playlist_title VARCHAR(255));
+```
+
+<h4>1.3.video_data</h4>
+
+```
 CREATE TABLE IF NOT EXISTS video_data(
         dtype VARCHAR(255),
         video_id VARCHAR(255),
@@ -71,16 +81,6 @@ CREATE TABLE IF NOT EXISTS video_data(
         like_count BIGINT,
         favourite_count BIGINT,
         comment_count BIGINT);
-```
-
-<h4>1.3.video_data</h4>
-
-```
-CREATE TABLE IF NOT EXISTS playlist_data(
-       dtype VARCHAR(255),
-       channel_id VARCHAR(255),
-       playlist_id VARCHAR(255),
-       playlist_title VARCHAR(255));
 ```
 
 <h4>1.4.comment_data</h4>
