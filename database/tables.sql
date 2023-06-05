@@ -33,4 +33,4 @@ CREATE TABLE IF NOT EXISTS comment_data(
         video_id VARCHAR(255),
         comment_text VARCHAR(255),
         comment_author VARCHAR(255),
-        publisehd_date VARCHAR(255));
+        published_date VARCHAR(255));
