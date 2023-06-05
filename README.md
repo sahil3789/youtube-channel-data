@@ -94,3 +94,9 @@ CREATE TABLE IF NOT EXISTS comment_data(
         comment_author VARCHAR(255),
         published_date VARCHAR(255));
 ```
+
+<h3>Run the application</h3>
+
+```
+streamlit run app.py
+```
